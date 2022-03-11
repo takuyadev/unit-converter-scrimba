@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="items-center">
+        <section class="container"> 
+            <div class="background-gradient items-center spacing">
+                <h1 class="text-white">Metric/Imperial unit conversion</h2>
+                <h1 class="fs-xl text-white" id="unit">0</h1> 
+                <div>
+                    <input id="conversionValue" class="sm-padding" type="text" placeholder="Type Unit"></input>
+                    <button class="sm-padding" onclick="changeUnit()" >Change</button>
+                </div>
+            </div>  
+            <div class="items-center spacing">
+                <div class="items-center">
+                    <h2>Length (Meter/Feet)</h2>
+                    <div class="rows text-accent">
+                        <p id="convertMeter">0 meters = 0.000 feet</p>
+                        <p>&nbsp | &nbsp</p>
+                        <p id="convertFeet">0 meters = 0.000 feet</p>
+                    </div>
+                </div>
+                <div class="items-center">
+                    <h2>Volume (Liters/Gallons)</h2>
+                    <div class="rows text-accent">
+                        <p id="convertGallon">0 meters = 0.000 feet</p>
+                        <p>&nbsp | &nbsp</p>
+                        <p id="convertLiter">0 meters = 0.000 feet</p>
+                    </div>
+                </div>
+                <div class="items-center">
+                    <h2>Mass (Kilograms/Pounds)</h2>
+                    <div class="rows  text-accent">
+                        <p id="convertKilograms">0 meters = 0.000 feet</p>
+                        <p>&nbsp | &nbsp</p>
+                        <p id="convertPounds">0 meters = 0.000 feet</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, button, input[type="text"] {
+    color: #1A1921;    
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+h2{
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+p{
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+button{
+    background: white;
+    border: none;
+    border-radius: 8px;
+}
+
+input[type="text"]{
+    border-radius: 8px;
+    border:none;
+}
+
+.rows{
+    display:flex;
+    
+}
+
+.container{
+    border-radius: 32px;
+    margin: 32px 0;
+    max-width: 900px;
+    min-width: 700px;
+     overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.items-center{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sm-padding{
+    padding: 8px;
+}
+
+.background-gradient{
+    background: linear-gradient(#2B75EC, #2EC4DE);
+}
+
+.fs-xl{
+    font-family: Inter;
+font-size: 98px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.text-white{
+    color:#FFF;
+}
+
+.text-accent{
+    color: #D2D2D2;
+}
+
+.spacing{
+    padding: 48px;
+}
